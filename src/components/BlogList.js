@@ -13,6 +13,9 @@ const BlogList = () => {
               title
               date(formatString: "MMMM D, YYYY")
             }
+            fields {
+                slug
+            }
             excerpt
           }
         }
@@ -23,6 +26,7 @@ const BlogList = () => {
         <div>
             {data.allMarkdownRemark.edges.map(edge => (
                 <BlogPost key={edge.node.id}
+                          slug={edge.node.fields.slug}
                           title={edge.node.frontmatter.title}
                           date={edge.node.frontmatter.date}
                           excerpt={edge.node.excerpt}/>

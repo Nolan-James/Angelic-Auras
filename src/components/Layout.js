@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from './Layout.module.css'
+import { Link } from "gatsby";
 
 const Layout = ({ children }) => {
     return (
         <div>
             <header>
                 <div>
-                    <h1>Angelic Auras</h1>
+                    <h1><Link to="/">Angelic Auras</Link></h1>
                 </div>
             </header>
             <main>
