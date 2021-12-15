@@ -17,6 +17,8 @@
   "license": "0BSD",
   "dependencies": {
     "gatsby": "^4.4.0",
+    "gatsby-plugin-netlify-cms": "^6.4.0",
+    "netlify-cms-app": "^2.15.61",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
