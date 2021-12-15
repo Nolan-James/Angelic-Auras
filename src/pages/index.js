@@ -12,12 +12,21 @@ const IndexPage = () => {
           title
         }
       }
+      markdownRemark(frontmatter: { contentKey: { eq: "indexPage" } })
+      {
+        frontmatter {
+            tagline
+            heroImage
+        }
+      }
     }
   `)
+    const tagline = data.markdownRemark.frontmatter.tagline;
+    const heroImage = data.markdownRemark.frontmatter.heroImage;
     return (
         <Layout>
-            <div>
-                <h1>{data.site.siteMetadata.title}</h1>
+            <div style={{ backgroundImage: `url('${heroImage})` }}>
+                <h1>{tagline}</h1>
             </div>
             <BlogList/>
         </Layout>
