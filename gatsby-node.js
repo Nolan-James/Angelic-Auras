@@ -20,6 +20,9 @@ exports.createPages = async function ({ graphql, actions }) {
       allMarkdownRemark {
         edges {
           node {
+            frontmatter {
+                contentKey
+            }
             fields {
               slug
             }
@@ -29,6 +32,7 @@ exports.createPages = async function ({ graphql, actions }) {
     }
   `);
     result.data.allMarkdownRemark.edges
+        .filter(edge => edge.node.frontmatter.contentKey === 'blog')
         .forEach(({ node }) => {
             createPage({
                 path: node.fields.slug,

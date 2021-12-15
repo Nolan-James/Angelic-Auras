@@ -1,11 +1,15 @@
 import React from 'react';
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, Link, useStaticQuery } from "gatsby";
 import BlogPost from "./BlogPost";
 
 const BlogList = () => {
     const data = useStaticQuery(graphql`
     {
-      allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
+      allMarkdownRemark(
+        sort: { fields: frontmatter___date, order: DESC }
+        filter: { frontmatter: { contentKey: { eq: "blog" }}}
+        limit: 3
+        ) {
         edges {
           node {
             id
@@ -31,6 +35,9 @@ const BlogList = () => {
                           date={edge.node.frontmatter.date}
                           excerpt={edge.node.excerpt}/>
             ))}
+            <div>
+                <Link to="/blog">More --</Link>
+            </div>
 
         </div>
     );

@@ -8,6 +8,7 @@ const Layout = ({ children }) => {
             <header>
                 <div>
                     <h1><Link to="/">Angelic Auras</Link></h1>
+                    <Link to="/blog">Blog</Link>
                 </div>
             </header>
             <main>
