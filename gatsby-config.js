@@ -4,6 +4,14 @@ module.exports = {
     },
     plugins: [
         'gatsby-plugin-netlify-cms',
+        `gatsby-plugin-sass`,
+        {
+            resolve: 'gatsby-source-filesystem',
+            options: {
+                name: 'images',
+                path: 'static/img'
+            }
+        },
         {
             resolve: 'gatsby-source-filesystem',
             options: {
@@ -18,6 +26,21 @@ module.exports = {
                 path: 'src/pageData'
             }
         },
-        'gatsby-transformer-remark'
+        {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+                plugins: [
+                    {
+                        resolve: `gatsby-remark-relative-images`,
+                    },
+                    {
+                        resolve: `gatsby-remark-images`,
+                        options: { maxWidth: 1024 }
+                    }
+                ]
+            }
+        },
+        'gatsby-plugin-sharp',
+        'gatsby-transformer-sharp'
     ]
 }

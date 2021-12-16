@@ -38,3 +38,7 @@ collections:
           - label: "Hero Image"
             name: "heroImage"
             widget: "image"
+          - label: "Sub Tagline"
+            name: "subTagline"
+            widget: "string"
+
