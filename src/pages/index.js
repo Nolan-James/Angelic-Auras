@@ -9,7 +9,6 @@ import Layout from "../components/Layout";
 import './style.scss';
 import Services from "../components/Services";
 
-
 const IndexPage = () => {
     const data = useStaticQuery(graphql`
     {
