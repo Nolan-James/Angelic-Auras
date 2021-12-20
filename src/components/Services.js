@@ -3,41 +3,41 @@ import Card from "./Card";
 import { graphql, useStaticQuery } from "gatsby";
 
 const Services = () => {
-    const data = useStaticQuery(graphql`
-    {
-      markdownRemark(frontmatter: { contentKey: { eq: "indexPage" } }) {
-        frontmatter {
-          service1Title
-          service1Description
-          service1Image {
-            childImageSharp {
-                fluid(quality: 90, maxWidth: 1200) {
-                    ...GatsbyImageSharpFluid
-                }
-            }
-          }
-          service2Title
-          service2Description
-          service2Image {
-            childImageSharp {
-                fluid(quality: 90, maxWidth: 1200) {
-                    ...GatsbyImageSharpFluid
-                }
-            }
-          }
-          service3Title
-          service3Description
-          service3Image {
-            childImageSharp {
-                fluid(quality: 90, maxWidth: 1200) {
-                    ...GatsbyImageSharpFluid
-                }
-            }
-          }
-        }
-      }
-    }
-  `);
+    //   const data = useStaticQuery(graphql`
+    //   {
+    //     markdownRemark(frontmatter: { contentKey: { eq: "indexPage" } }) {
+    //       frontmatter {
+    //         service1Title
+    //         service1Description
+    //         service1Image {
+    //           childImageSharp {
+    //               fluid(quality: 90, maxWidth: 1200) {
+    //                   ...GatsbyImageSharpFluid
+    //               }
+    //           }
+    //         }
+    //         service2Title
+    //         service2Description
+    //         service2Image {
+    //           childImageSharp {
+    //               fluid(quality: 90, maxWidth: 1200) {
+    //                   ...GatsbyImageSharpFluid
+    //               }
+    //           }
+    //         }
+    //         service3Title
+    //         service3Description
+    //         service3Image {
+    //           childImageSharp {
+    //               fluid(quality: 90, maxWidth: 1200) {
+    //                   ...GatsbyImageSharpFluid
+    //               }
+    //           }
+    //         }
+    //       }
+    //     }
+    //   }
+    // `);
     const service1Title = data.markdownRemark.frontmatter.service1Title;
     const service1Description = data.markdownRemark.frontmatter.service1Description;
     const service1Image = data.markdownRemark.frontmatter.service1Image;
