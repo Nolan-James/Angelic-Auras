@@ -41,4 +41,7 @@ collections:
           - label: "Sub Tagline"
             name: "subTagline"
             widget: "string"
+          - label: "Service 1"
+            name: "service1"
+            widget: "string"
 
