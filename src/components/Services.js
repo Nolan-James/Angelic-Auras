@@ -38,25 +38,30 @@ const Services = () => {
     //     }
     //   }
     // `);
-    const service1Title = data.markdownRemark.frontmatter.service1Title;
-    const service1Description = data.markdownRemark.frontmatter.service1Description;
-    const service1Image = data.markdownRemark.frontmatter.service1Image;
-
-    const service2Title = data.markdownRemark.frontmatter.service1Title;
-    const service2Description = data.markdownRemark.frontmatter.service1Description;
-    const service2Image = data.markdownRemark.frontmatter.service1Image;
-
-    const service3Title = data.markdownRemark.frontmatter.service1Title;
-    const service3Description = data.markdownRemark.frontmatter.service1Description;
-    const service3Image = data.markdownRemark.frontmatter.service1Image;
+//     const service1Title = data.markdownRemark.frontmatter.service1Title;
+//     const service1Description = data.markdownRemark.frontmatter.service1Description;
+//     const service1Image = data.markdownRemark.frontmatter.service1Image;
+//
+//     const service2Title = data.markdownRemark.frontmatter.service1Title;
+//     const service2Description = data.markdownRemark.frontmatter.service1Description;
+//     const service2Image = data.markdownRemark.frontmatter.service1Image;
+//
+//     const service3Title = data.markdownRemark.frontmatter.service1Title;
+//     const service3Description = data.markdownRemark.frontmatter.service1Description;
+//     const service3Image = data.markdownRemark.frontmatter.service1Image;
+//
+//     return (
+//         <div>
+//             <Card title={service1Title} description={service1Description} img={service1Image}/>
+//             <Card title={service2Title} description={service2Description} img={service2Image}/>
+//             <Card title={service3Title} description={service3Description} img={service3Image}/>
+//         </div>
+//     );
+// };
 
     return (
-        <div>
-            <Card title={service1Title} description={service1Description} img={service1Image}/>
-            <Card title={service2Title} description={service2Description} img={service2Image}/>
-            <Card title={service3Title} description={service3Description} img={service3Image}/>
-        </div>
-    );
-};
+        <div>Test</div>
+    )
+}
 
 export default Services;
