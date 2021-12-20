@@ -68,4 +68,10 @@ collections:
           - label: "Service 3 Image"
             name: "service3Image"
             widget: "image"
+          - label: "Welcome Title"
+            name: "welcomeTitle"
+            widget: "string"
+          - label: "Welcome Text"
+            name: "WelcomeText"
+            widget: "markdown"
 

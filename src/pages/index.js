@@ -4,8 +4,6 @@ import BackgroundImage from 'gatsby-background-image';
 import styles from './index.module.css';
 import BlogList from "../components/BlogList";
 import Layout from "../components/Layout";
-// import './global.css';
-// import './index.sass';
 import './style.scss';
 import Services from "../components/Services";
 
