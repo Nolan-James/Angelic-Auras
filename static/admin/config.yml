@@ -22,6 +22,9 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+      - label: "Post Image"
+        name: "postImage"
+        widget: "image"
   - name: "pages"
     label: "Pages"
     files:

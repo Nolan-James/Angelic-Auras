@@ -5,21 +5,19 @@ const Welcome = () => {
     const data = useStaticQuery(graphql`
     {
         markdownRemark(frontmatter: { contentKey: { eq: "indexPage" } }) {
+        html
             frontmatter {
-                welcomeTitle
-                WelcomeText
+               welcomeTitle 
             }
         }
     }
 `)
 
-    const welcomeTitle = data.markdownRemark.frontmatter.welcomeTitle;
-    const welcomeText = data.markdownRemark.frontmatter.WelcomeText;
-
+    const welcomeTitle = data.markdownRemark.frontmatter.welcomeTitle
     return (
         <div className='container mt-5'>
             <h1>{welcomeTitle}</h1>
-            <div dangerouslySetInnerHTML={{ __html: welcomeText }}/>
+            <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}/>
         </div>
     );
 };

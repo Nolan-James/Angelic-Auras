@@ -27,14 +27,19 @@ const BlogList = () => {
     }
   `);
     return (
-        <div>
-            {data.allMarkdownRemark.edges.map(edge => (
-                <BlogPost key={edge.node.id}
-                          slug={edge.node.fields.slug}
-                          title={edge.node.frontmatter.title}
-                          date={edge.node.frontmatter.date}
-                          excerpt={edge.node.excerpt}/>
-            ))}
+        <div className='container mt-5'>
+            <div className="columns post is-4">
+                {data.allMarkdownRemark.edges.map(edge => (
+                    <BlogPost key={edge.node.id}
+                              slug={edge.node.fields.slug}
+                              title={edge.node.frontmatter.title}
+                              date={edge.node.frontmatter.date}
+                              excerpt={edge.node.excerpt}
+
+                    />
+                ))}
+            </div>
+
             <div>
                 <Link to="/blog">More --</Link>
             </div>

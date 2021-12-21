@@ -4,10 +4,10 @@ import { Link } from "gatsby";
 
 const BlogPost = ({ title, date, excerpt, slug }) => {
     return (
-        <article>
-            <h2><Link to={slug}>{title}</Link></h2>
-            <h3>{date}</h3>
-            <p>{excerpt}</p>
+        <article className='mt-6 p-5'>
+            <h2 className='title post-title'><Link to={slug}>{title}</Link></h2>
+            <h3 className='heading '>{date}</h3>
+            <p className='post-excerpt'>{excerpt}</p>
         </article>
     );
 };
