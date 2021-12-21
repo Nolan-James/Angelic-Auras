@@ -4,10 +4,6 @@ const Navbar = () => {
     return (
         <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
-                <a className="navbar-item" href="https://bulma.io">
-                    <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"/>
-                </a>
-
                 <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false"
                    data-target="navbarBasicExample">
                     <span aria-hidden="true"></span>
@@ -23,43 +19,29 @@ const Navbar = () => {
                     </a>
 
                     <a className="navbar-item">
-                        Documentation
+                        Energy Field Healing
                     </a>
 
-                    <div className="navbar-item has-dropdown is-hoverable">
-                        <a className="navbar-link">
-                            More
-                        </a>
+                    <a className="navbar-item">
+                        Meditation
+                    </a>
 
-                        <div className="navbar-dropdown">
-                            <a className="navbar-item">
-                                About
-                            </a>
-                            <a className="navbar-item">
-                                Jobs
-                            </a>
-                            <a className="navbar-item">
-                                Contact
-                            </a>
-                            <hr className="navbar-divider"/>
-                            <a className="navbar-item">
-                                Report an issue
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                    <a className="navbar-item">
+                        Spiritual Guidance Healing
+                    </a>
 
-                <div className="navbar-end">
-                    <div className="navbar-item">
-                        <div className="buttons">
-                            <a className="button is-primary">
-                                <strong>Sign up</strong>
-                            </a>
-                            <a className="button is-light">
-                                Log in
-                            </a>
-                        </div>
-                    </div>
+                    <a className="navbar-item">
+                        Angels for Animals
+                    </a>
+
+                    <a className="navbar-item">
+                        News
+                    </a>
+
+                    <a className="navbar-item">
+                        Blog
+                    </a>
+
                 </div>
             </div>
         </nav>

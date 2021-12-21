@@ -41,9 +41,15 @@ const IndexPage = () => {
                 <h1 className='hero-txt'>{tagline}</h1>
                 <h2>{subTagline}</h2>
             </BackgroundImage>
-            <Services/>
-            <Welcome/>
-            <BlogList/>
+            <div className='m-3'>
+                <Services/>
+            </div>
+            <div className='m-6'>
+                <Welcome/>
+            </div>
+            <div className='m-3'>
+                <BlogList/>
+            </div>
         </Layout>
     )
 }

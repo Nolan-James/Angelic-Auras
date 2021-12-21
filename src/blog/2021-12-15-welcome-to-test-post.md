@@ -2,6 +2,7 @@
 title: Welcome to Test Post 
 date: 2021-12-15T12:43:38.520Z 
 contentKey: blog
+postImage: /img/4.jpg
 ---
 
 # Hello!

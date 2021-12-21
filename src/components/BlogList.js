@@ -16,6 +16,11 @@ const BlogList = () => {
             frontmatter {
               title
               date(formatString: "MMMM D, YYYY")
+              postImage {
+                childImageSharp {
+                    gatsbyImageData(width: 400, placeholder: BLURRED, formats: AUTO)
+                }
+              }
             }
             fields {
                 slug
@@ -35,13 +40,14 @@ const BlogList = () => {
                               title={edge.node.frontmatter.title}
                               date={edge.node.frontmatter.date}
                               excerpt={edge.node.excerpt}
+                              image={edge.node.frontmatter.postImage}
 
                     />
                 ))}
             </div>
 
-            <div>
-                <Link to="/blog">More --</Link>
+            <div className='heading'>
+                <Link to="/blog">All Posts...</Link>
             </div>
 
         </div>

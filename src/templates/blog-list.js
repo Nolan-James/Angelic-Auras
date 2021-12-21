@@ -8,31 +8,33 @@ const BlogListTemplate = ({ data, pageContext }) => {
     const nextPage = `/blog/${pageContext.currentPage + 1}`;
     return (
         <Layout>
-            <div>
-                <h1>The Coffee Blog</h1>
+            <div className='container'>
+                <main>
+                    {data.allMarkdownRemark.edges.map(node => (
+                        <BlogPost
+                            key={node.node.id}
+                            slug={node.node.fields.slug}
+                            title={node.node.frontmatter.title}
+                            date={node.node.frontmatter.date}
+                            excerpt={node.node.excerpt}
+
+                        />
+                    ))}
+                </main>
+                <div className='heading mt-3'>
+                    {pageContext.currentPage > 1 && (
+                        <Link to={previousPage}>
+                            -- Previous Page
+                        </Link>
+                    )}
+                    {pageContext.currentPage < pageContext.pageCount && (
+                        <Link to={nextPage}>
+                            Next Page --
+                        </Link>
+                    )}
+                </div>
             </div>
-            <main>
-                {data.allMarkdownRemark.edges.map(node => (
-                    <BlogPost
-                        key={node.node.id}
-                        slug={node.node.fields.slug}
-                        title={node.node.frontmatter.title}
-                        date={node.node.frontmatter.date}
-                        excerpt={node.node.excerpt}/>
-                ))}
-            </main>
-            <div>
-                {pageContext.currentPage > 1 && (
-                    <Link to={previousPage}>
-                        -- Previous Page
-                    </Link>
-                )}
-                {pageContext.currentPage < pageContext.pageCount && (
-                    <Link to={nextPage}>
-                        Next Page --
-                    </Link>
-                )}
-            </div>
+
         </Layout>
     );
 };

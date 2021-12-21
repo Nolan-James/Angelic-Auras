@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Layout.module.css'
 import { Link } from "gatsby";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Layout = ({ children }) => {
     return (
@@ -16,6 +17,7 @@ const Layout = ({ children }) => {
             <main>
                 <Navbar/>
                 {children}
+                <Footer/>
             </main>
         </div>
     );

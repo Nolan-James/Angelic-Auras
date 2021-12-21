@@ -2,6 +2,7 @@
 title: Yar Pirate Ipsum
 date: 2021-12-15T14:28:11.362Z
 contentKey: blog
+postImage: /img/4.jpg
 ---
 
 

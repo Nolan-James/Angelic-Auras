@@ -5,7 +5,7 @@ const Card = ({ title, img, description }) => {
     const image = getImage(img);
     return (
         <div className="card mt-3 p-3">
-            <div className="card-image ">
+            <div className="card-image is-rounded">
                 <GatsbyImage image={image} alt='title'/>
             </div>
             <div className="card-content">

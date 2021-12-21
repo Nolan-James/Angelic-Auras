@@ -15,9 +15,9 @@ const Welcome = () => {
 
     const welcomeTitle = data.markdownRemark.frontmatter.welcomeTitle
     return (
-        <div className='container mt-5'>
-            <h1>{welcomeTitle}</h1>
-            <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}/>
+        <div className='container mt-5 '>
+            <h1 className='title is-1'>{welcomeTitle}</h1>
+            <div className='is-size-5' dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}/>
         </div>
     );
 };
