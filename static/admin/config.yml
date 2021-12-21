@@ -71,7 +71,7 @@ collections:
           - label: "Welcome Title"
             name: "welcomeTitle"
             widget: "string"
-          - label: "Welcome Text"
-            name: "WelcomeText"
+          - label: "Body"
+            name: "body"
             widget: "markdown"
 

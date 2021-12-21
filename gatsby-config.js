@@ -3,6 +3,9 @@ module.exports = {
         siteUrl: `https://www.yourdomain.tld`,
     },
     plugins: [
+        'gatsby-plugin-sharp',
+        'gatsby-transformer-sharp',
+        `gatsby-plugin-image`,
         `gatsby-plugin-sass`,
         {
             resolve: 'gatsby-plugin-netlify-cms',
@@ -44,9 +47,6 @@ module.exports = {
                     }
                 ]
             }
-        },
-        `gatsby-plugin-image`,
-        'gatsby-plugin-sharp',
-        'gatsby-transformer-sharp'
+        }
     ]
 }

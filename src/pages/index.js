@@ -6,6 +6,7 @@ import BlogList from "../components/BlogList";
 import Layout from "../components/Layout";
 import './style.scss';
 import Services from "../components/Services";
+import Welcome from "../components/Welcome";
 
 const IndexPage = () => {
     const data = useStaticQuery(graphql`
@@ -41,6 +42,7 @@ const IndexPage = () => {
                 <h2>{subTagline}</h2>
             </BackgroundImage>
             <Services/>
+            <Welcome/>
             <BlogList/>
         </Layout>
     )
