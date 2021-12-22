@@ -2,12 +2,16 @@ import React from 'react';
 import { graphql, Link } from "gatsby";
 import BlogPost from "../components/BlogPost";
 import Layout from "../components/Layout";
+import { Helmet } from "react-helmet";
 
 const BlogListTemplate = ({ data, pageContext }) => {
     const previousPage = pageContext.currentPage === 2 ? '/blog' : `/blog/${pageContext.currentPage - 1}`;
     const nextPage = `/blog/${pageContext.currentPage + 1}`;
     return (
         <Layout>
+            <Helmet>
+                <title>Angelic Auras - Blog</title>
+            </Helmet>
             <div className='container'>
                 <main>
                     {data.allMarkdownRemark.edges.map(node => (

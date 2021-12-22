@@ -76,3 +76,34 @@ h2 {
   line-height: 1.4;
   margin: 0 6rem;
 }
+
+.review-carousel {
+  padding: 4rem;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 0.42896951861938093) 0%, rgba(252, 70, 107, 0.08512093817774058) 100%);
+}
+
+.energy-results {
+  margin: 2rem;
+  border-radius: 25px;
+  box-shadow: 8px 10px 5px 0px rgba(162, 91, 163, 0.34);
+  -webkit-box-shadow: 8px 10px 5px 0px rgba(162, 91, 163, 0.34);
+  -moz-box-shadow: 8px 10px 5px 0px rgba(162, 91, 163, 0.34);
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 0.318559423982157) 0%, rgba(148, 187, 233, 0.2239222000073935) 100%);
+}
+
+.meditation {
+  padding: 2rem;
+  border-radius: 25px;
+  box-shadow: 8px 10px 5px 0px rgba(162, 91, 163, 0.34);
+  -webkit-box-shadow: 8px 10px 5px 0px rgba(162, 91, 163, 0.34);
+  -moz-box-shadow: 8px 10px 5px 0px rgba(162, 91, 163, 0.34);
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 0.318559423982157) 0%, rgba(148, 187, 233, 0.2239222000073935) 100%);
+}
+
+.is-fullheight-100vh {
+  height: 100vh;
+}
+

@@ -2,12 +2,16 @@ import React from 'react';
 import Layout from "../components/Layout";
 import { graphql, Link } from "gatsby";
 import BackgroundImage from "gatsby-background-image";
+import { Helmet } from "react-helmet";
 
 const BlogTemplate = ({ data }) => {
     const heroImage = data.markdownRemark.frontmatter.postImage;
 
     return (
         <Layout>
+            <Helmet>
+                <title>Angelic Auras - {data.markdownRemark.frontmatter.title}</title>
+            </Helmet>
             <BackgroundImage className="hero-post" fluid={heroImage.childImageSharp.fluid}>
                 <h1 className='hero-txt'>{data.markdownRemark.frontmatter.title}</h1>
             </BackgroundImage>

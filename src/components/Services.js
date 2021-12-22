@@ -1,7 +1,6 @@
 import React from 'react';
 import Card from "./Card";
 import { graphql, useStaticQuery } from "gatsby";
-import { getImage } from "gatsby-plugin-image";
 
 const Services = () => {
     const data = useStaticQuery(graphql`

@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './BlogPost.module.css';
 import { Link } from "gatsby";
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 

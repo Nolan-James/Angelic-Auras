@@ -7,6 +7,7 @@ module.exports = {
         'gatsby-transformer-sharp',
         `gatsby-plugin-image`,
         `gatsby-plugin-sass`,
+        'gatsby-plugin-react-helmet',
         {
             resolve: 'gatsby-plugin-netlify-cms',
             options: {

@@ -1,46 +1,55 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Link } from "gatsby";
 
 const Navbar = () => {
+    const [navbar, setNavbar] = useState(false);
+    const [activeClass, setActiveClass] = useState("");
+
+    const toggleNavbar = () => {
+            setNavbar(!navbar);
+            setActiveClass(navbar ? "is-active" : "");
+        }
+    ;
     return (
         <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
-                <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false"
-                   data-target="navbarBasicExample">
+                <button className="navbar-burger" aria-label="menu" aria-expanded="false"
+                        data-target="navbarBasicExample" onClick={toggleNavbar} onKeyPress={toggleNavbar}>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
-                </a>
+                </button>
             </div>
 
-            <div id="navbarBasicExample" className="navbar-menu">
+            <div id="navbarBasicExample" className={`navbar-menu ${activeClass}`}>
                 <div className="navbar-start">
-                    <a className="navbar-item">
+                    <Link to='/' className="navbar-item">
                         Home
-                    </a>
+                    </Link>
 
-                    <a className="navbar-item">
+                    <Link to='/energy' className="navbar-item ">
                         Energy Field Healing
-                    </a>
+                    </Link>
 
-                    <a className="navbar-item">
+                    <Link to='/meditation' className="navbar-item">
                         Meditation
-                    </a>
+                    </Link>
 
-                    <a className="navbar-item">
+                    <Link to='/guidance' className="navbar-item">
                         Spiritual Guidance Healing
-                    </a>
+                    </Link>
 
-                    <a className="navbar-item">
+                    <Link to='/animals' className="navbar-item">
                         Angels for Animals
-                    </a>
+                    </Link>
 
-                    <a className="navbar-item">
+                    <Link to='/news' className="navbar-item">
                         News
-                    </a>
+                    </Link>
 
-                    <a className="navbar-item">
+                    <Link to='/blog' className="navbar-item">
                         Blog
-                    </a>
+                    </Link>
 
                 </div>
             </div>

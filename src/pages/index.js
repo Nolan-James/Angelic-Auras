@@ -1,12 +1,13 @@
 import * as React from "react"
 import { graphql, useStaticQuery } from "gatsby";
 import BackgroundImage from 'gatsby-background-image';
-import styles from './index.module.css';
 import BlogList from "../components/BlogList";
 import Layout from "../components/Layout";
 import './style.scss';
 import Services from "../components/Services";
 import Welcome from "../components/Welcome";
+import Reviews from "../components/Reviews";
+import { Helmet } from "react-helmet";
 
 const IndexPage = () => {
     const data = useStaticQuery(graphql`
@@ -37,6 +38,9 @@ const IndexPage = () => {
 
     return (
         <Layout>
+            <Helmet>
+                <title>Angelic Auras - Home</title>
+            </Helmet>
             <BackgroundImage className="hero" fluid={heroImage.childImageSharp.fluid}>
                 <h1 className='hero-txt'>{tagline}</h1>
                 <h2>{subTagline}</h2>
@@ -49,6 +53,9 @@ const IndexPage = () => {
             </div>
             <div className='m-3'>
                 <BlogList/>
+            </div>
+            <div className='m-6'>
+                <Reviews/>
             </div>
         </Layout>
     )
