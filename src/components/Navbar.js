@@ -6,14 +6,14 @@ const Navbar = () => {
     const [activeClass, setActiveClass] = useState("");
 
     const toggleNavbar = () => {
-            setNavbar(!navbar);
+            setNavbar(navbar => !navbar);
             setActiveClass(navbar ? "is-active" : "");
         }
     ;
     return (
-        <nav className="navbar" role="navigation" aria-label="main navigation">
+        <nav className="navbar pt-4" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
-                <button className="navbar-burger" aria-label="menu" aria-expanded="false"
+                <button className={`navbar-burger ${activeClass}`} aria-label="menu" aria-expanded="false"
                         data-target="navbarBasicExample" onClick={toggleNavbar} onKeyPress={toggleNavbar}>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>

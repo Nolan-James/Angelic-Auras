@@ -5,7 +5,9 @@ const Footer = () => {
         <footer className="footer">
             <div className="content has-text-centered">
                 <p>
-                    <strong>Angelic Auras</strong> website by <a href="https://nolanjames.me">Nolan James</a>.
+                    <strong>Angelic Auras 2022</strong> <small>website by <a href="https://nolanjames.me"
+                                                                             target="_blank" rel="noreferrer">Nolan
+                    James</a>.</small>
                 </p>
             </div>
         </footer>

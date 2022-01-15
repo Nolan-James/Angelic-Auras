@@ -17,7 +17,7 @@ const EnergyPage = () => {
             </header>
 
             <section id="energy-section" className="py-3">
-                <div className="container">
+                <div className="container p-5">
                     <div className="row">
                         <div className="col-md-6">
                             <h2 className='subtitle is-2'>Restore Balance</h2>
@@ -132,7 +132,8 @@ const EnergyPage = () => {
                     </div>
                     <div className="row">
                         <div className="col-lg-12 text-center py-3 text-white">
-                            <h4 className="warning-text">Please note: Due to the movement of energy this treatment is
+                            <h4 className="warning-text has-text-centered">Please note: Due to the movement of energy
+                                this treatment is
                                 NOT suitable for people with epilepsy,
                                 pregnant women and people with pacemakers.</h4>
                         </div>

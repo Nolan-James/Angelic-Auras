@@ -16,7 +16,7 @@ const Meditation = () => {
                 </div>
             </header>
 
-            <section id="meditation-intro" className="pt-3">
+            <section id="meditation-intro" className="p-5">
                 <div className="container">
 
                     <p>A daily practise of meditation has been proven to enhance your well being. In recent studies
@@ -28,7 +28,7 @@ const Meditation = () => {
                 </div>
             </section>
 
-            <section id="meditation-section" className="py-3">
+            <section id="meditation-section" className="p-5">
                 <div className="container meditation">
 
                     <div className="col-md-6">
@@ -95,7 +95,7 @@ const Meditation = () => {
                 </div>
             </section>
 
-            <section id="meditation-body" className="py-3">
+            <section id="meditation-body" className="p-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">

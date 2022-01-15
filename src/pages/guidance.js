@@ -16,7 +16,7 @@ const GuidancePage = () => {
                 </div>
             </header>
 
-            <section id="guidance-intro" className="pt-3">
+            <section id="guidance-intro" className="p-5">
                 <div className="container">
                     <div className="row text-center">
 
