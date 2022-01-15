@@ -1,7 +1,9 @@
 ---
 contentKey: newsPage
-title: Womans Circle - 28th January 2022
+title: Wrath - Worldwide Rally Against Trophy Hunting
 ---
-![](/img/1.jpg)
 
-Come to the Circle of freedom in 2022.
+
+![](/img/wrath.jpg)
+
+Wednesday 19th - London - <https://fb.me/e/3J0sg1VM4>
