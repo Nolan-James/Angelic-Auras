@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from "./Card";
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, Link, useStaticQuery } from "gatsby";
 
 const Services = () => {
     const data = useStaticQuery(graphql`
@@ -48,17 +48,25 @@ const Services = () => {
         <div className='container'>
             <div className='columns'>
                 <div className='column'>
-                    <Card title={service1Title} description={service1Description} img={service1Image}/>
+                    <Link to='/energy'>
+                        <Card title={service1Title} description={service1Description} img={service1Image}/>
+                    </Link>
                 </div>
                 <div className="column">
-                    <Card title={service2Title} description={service2Description} img={service2Image}/>
+                    <Link to='/meditation'>
+                        <Card title={service2Title} description={service2Description} img={service2Image}/>
+                    </Link>
                 </div>
                 <div className="column">
-                    <Card title={service3Title} description={service3Description} img={service3Image}/>
+                    <Link to='/guidance'>
+                        <Card title={service3Title} description={service3Description} img={service3Image}/>
+
+                    </Link>
                 </div>
             </div>
         </div>
-    );
+    )
+        ;
 };
 
 

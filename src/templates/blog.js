@@ -13,10 +13,10 @@ const BlogTemplate = ({ data }) => {
                 <title>Angelic Auras - {data.markdownRemark.frontmatter.title}</title>
             </Helmet>
             <BackgroundImage className="hero-post" fluid={heroImage.childImageSharp.fluid}>
-                <h1 className='hero-txt'>{data.markdownRemark.frontmatter.title}</h1>
+                <h1 className='hero-text title is-1'>{data.markdownRemark.frontmatter.title}</h1>
             </BackgroundImage>
 
-            <section className='articles'>
+            <section className='articles has-text-centered'>
                 <div className='column is-8 is-offset-2'>
                     <div className="card article">
                         <div className='card-content'>
