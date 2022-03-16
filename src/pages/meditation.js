@@ -111,7 +111,8 @@ const Meditation = () => {
                                 <li>Protect your energy</li>
                             </ul>
                             <p>For more information or to book an appointment email: <a
-                                href="mailto:jen@angelic.com">jen@angelic.com</a></p>
+                                href="mailto:jen@angelic.com" className='button is-link'>jen@angelic.com</a>
+                            </p>
                             <p className="warning-text">Note: please seek advice from your doctor before coming off any
                                 medication and
                                 inform

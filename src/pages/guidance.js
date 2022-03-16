@@ -92,7 +92,9 @@ const GuidancePage = () => {
                         </p>
                         <p className='mb-4'>
                             A lifetime investment for only £55
-                            Please reserve your space by emailing angelicauras@mail.co.uk for more information and
+                            Please reserve your space by emailing <a
+                            href="mailto: angelicauras@mail.co.uk"
+                            className='button is-link'>angelicauras@mail.co.uk</a> for more information and
                             details on how to enrol.
                         </p>
 
@@ -106,7 +108,7 @@ const GuidancePage = () => {
                         <h2 className='title is-2 has-text-centered'>Spend an hour in pure relaxation with a crystal
                             chakra session.</h2>
                         <div className='has-text-centered'>
-                            <StaticImage className='is-centered' src='../images/crystal.png' alt='crystals'/>
+                            <StaticImage className='is-centered mb-4' src='../images/crystal.png' alt='crystals'/>
                         </div>
                         <p className='mb-4'>
                             Be still and enjoy some quiet time from the outside world whilst you receive the healing
@@ -120,7 +122,7 @@ const GuidancePage = () => {
                             Based in Birmingham with easy access from Junction 7 of the M6 & the M5.
                         </p>
                         <div>
-                            <a href="mailto: angelicauras@mail.co.uk">Send Email</a>
+                            <a href="mailto: angelicauras@mail.co.uk" className='button is-link'>Send Email</a>
 
                         </div>
 

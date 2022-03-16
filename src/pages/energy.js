@@ -6,12 +6,12 @@ const EnergyPage = () => {
     return (
         <Layout>
             <Helmet>
-                <title>Angelic Auras - Energy Field Healing</title>
+                <title>Angelic Auras - Energy Healing</title>
             </Helmet>
             <header id="page-header">
                 <div className="container has-text-centered">
                     <div className=" m-auto text-center">
-                        <h1 className='title is-1'>Energy Field Healing</h1>
+                        <h1 className='title is-1'>Energy Healing</h1>
                     </div>
                 </div>
             </header>
@@ -21,71 +21,37 @@ const EnergyPage = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <h2 className='subtitle is-2'>Restore Balance</h2>
-                            <p>Jenny is an Advanced Level Energy Field Therapist.</p>
+                            <p>Jenny is an Advanced Level Energy Therapist. She gained her advanced diploma in 2007, but
+                                has always had an interest in the healing arts since her childhood from crystal balls,
+                                Angel card readings, crystals to Reiki and meditation. She is a natural intuitive and
+                                her intentions are always for the highest serving purpose of the client.</p>
 
-                            <p>Energy Field Healing is a highly advanced specialist therapy that works to restore
-                                balance to the
-                                body’s
-                                energy
-                                field, also known as the aura. Energy Field Healing is an active healing and will
-                                stimulate &amp;
-                                re-energise
-                                the body’s own ability to heal itself.</p>
+                            <p>Energy Healing works to restore balance to the body’s energy field, also known as the
+                                Aura. The session will activate, stimulate & re-energise the body’s own ability to heal
+                                itself.</p>
 
-                            <p>The aim of the therapy is to remove unwanted negative energy, imbalances and blockages
-                                that may be
-                                causing
-                                some
-                                form of ill health, this then aids the body to return to it’s true state of
-                                balance &amp; well
-                                being.</p>
+                            <p>The aim of the therapy is to remove unwanted negative energy, imbalances and blockages by
+                                cleansing and re-aligning the Chakra system and Aura layers around the body.</p>
 
-                            <h2 className='subtitle is-2'>The Human Energy Field</h2>
-                            <p>Our energy field radiates all around us (3-4 feet). It is made up of a complex system of
-                                life patterns
-                                and
-                                memories,
-                                which drive our view, beliefs, attitudes and physical presence in the world.</p>
+                            <h2 className='subtitle is-2'>The Human Aura</h2>
+                            <p>Our Aura radiates all around us (3-4 feet) It is in constant flow and will absorb
+                                energies from everyone we have a connection with including the places we work and live
+                                in. This may answer many of your questions on why you feel so drained or different after
+                                being in a certain place or with certain people.</p>
 
-                            <p>Because our energy field is in constant flow it absorbs energies from people and places
-                                that we have an
-                                energy
-                                connection with, in fact everyone we know and the places we work and live in.</p>
-
-                            <p>It is possible to feel emotions and trauma long after an event has happened because the
-                                energy
-                                connection
-                                remains intact.
-                                So if it was a stressful experience then the effects of that would be non-serving and
-                                may cause fatigue
-                                and
-                                an emotionally drained feeling.
-                                This can build heavily in the energy field and if left uncleared may lead to physical
-                                illness, emotional
-                                and mental imbalance.</p>
-
-                            <p>As an Energy Field Healer my aim would be to clear these stagnant energies, release any
-                                blockages and
-                                non
-                                serving energies, which will then allow fresh universal
-                                energy to flow back in. This strengthens the whole being physical, mental, emotional and
-                                spiritual
-                                allowing
-                                you to take control of your life
-                                and bring yourself harmony and balance. Feeling whole again.</p>
+                            <p>As an Energy Healer my aim would be to clear these stagnant and dense energies, release
+                                any blockages and non serving energies, which will then allow fresh universal energy to
+                                flow back in. This strengthens the whole being physical, mental, emotional and
+                                spiritual.</p>
 
                             <p>I work on the central channel of the body which has energy centres (Chakras). I aim to
-                                balance the
-                                body’s
-                                main energy centres and re-align
-                                and re-energise the energy field, thus bringing a sense of well being, peace, happiness
-                                and joy.</p>
-
+                                balance the body’s main energy centres and re-align and re-energise the Aura, thus
+                                bringing a sense of well being, peace, happiness and joy.</p>
 
                         </div>
                         <div className="energy-results">
                             <div className="has-text-centered p-4 ">
-                                <h4 className='mb-2'>Clinc results have shown Energy Field Healing to be effective with
+                                <h4 className='mb-2'>Clinic results have shown Energy Healing to be effective with
                                     conditions
                                     including:</h4>
                                 <div className="container">

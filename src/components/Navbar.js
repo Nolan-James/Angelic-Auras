@@ -43,12 +43,24 @@ const Navbar = () => {
                         Angels for Animals
                     </Link>
 
+                    <Link to='/moon' className="navbar-item">
+                        Moon Magic
+                    </Link>
+
+                    <Link to='/light' className="navbar-item">
+                        “The Light Within” – Women’s Circle
+                    </Link>
+
                     <Link to='/news' className="navbar-item">
                         News
                     </Link>
 
                     <Link to='/blog' className="navbar-item">
                         Blog
+                    </Link>
+
+                    <Link to='/about' className="navbar-item">
+                        About Us
                     </Link>
 
                 </div>
