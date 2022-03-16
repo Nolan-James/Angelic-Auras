@@ -12,11 +12,19 @@
   background-size: cover;
   height: 100vh;
   width: 100%;
+
 }
 
 .hero h1 {
   font-size: 10rem;
   color: #9381ff;
+}
+
+@media only screen and (max-width: 560px) {
+  .hero h1 {
+    font-size: 8rem;
+    text-align: center;
+  }
 }
 
 .hero h2 {

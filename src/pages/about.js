@@ -11,13 +11,13 @@ const About = () => {
             <header id="page-header">
                 <div className="container has-text-centered">
                     <div className=" m-auto text-center">
-                        <h1 className='title is-1'>About Us</h1>
+                        <h1 className='title is-1 mt-6'>About Us</h1>
                     </div>
                 </div>
             </header>
 
             <section id="about-section" className="py-3">
-                <div className='container'>
+                <div className='container m-4'>
                     <div>
                         <p className='mb-4'>
                             Coming from an ancestral line of healers and psychics on my Irish Celtic side, as a young

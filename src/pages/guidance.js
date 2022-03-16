@@ -12,7 +12,7 @@ const GuidancePage = () => {
             <header id="page-header">
                 <div className="container has-text-centered">
                     <div className=" m-auto text-center">
-                        <h1 className='title is-1'>Spiritual Guidance Healing</h1>
+                        <h1 className='title is-1 mt-6'>Spiritual Guidance Healing</h1>
                     </div>
                 </div>
             </header>

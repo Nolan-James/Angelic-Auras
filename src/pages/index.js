@@ -42,7 +42,7 @@ const IndexPage = () => {
                 <title>Angelic Auras - Home</title>
             </Helmet>
             <BackgroundImage className="hero" fluid={heroImage.childImageSharp.fluid}>
-                <h1 className='hero-txt'>{tagline}</h1>
+                <h1>{tagline}</h1>
                 <h2>{subTagline}</h2>
             </BackgroundImage>
             <div className='m-3'>

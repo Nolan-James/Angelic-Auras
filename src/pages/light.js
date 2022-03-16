@@ -17,7 +17,7 @@ const Light = () => {
             </header>
 
             <section id="light-section" className="py-3">
-                <div className='container'>
+                <div className='container m-4'>
                     <p className='mb-4'>
                         A unique and empowering women’s circle helping you connect to the "Light Within".
                     </p>

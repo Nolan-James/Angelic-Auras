@@ -17,7 +17,7 @@ const Moon = () => {
             </header>
 
             <section id="light-section" className="py-3">
-                <div className='container'>
+                <div className='container m-4'>
                     <p className='mb-4'>
                         As the moon goes through it’s cycles , so does our emotional world. The moon's phases are a
                         reflection of the circle of life, but if you take time out of your day and tune into its divine

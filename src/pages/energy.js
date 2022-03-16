@@ -10,8 +10,8 @@ const EnergyPage = () => {
             </Helmet>
             <header id="page-header">
                 <div className="container has-text-centered">
-                    <div className=" m-auto text-center">
-                        <h1 className='title is-1'>Energy Healing</h1>
+                    <div className="m-auto text-center">
+                        <h1 className='title is-1 mt-6'>Energy Healing</h1>
                     </div>
                 </div>
             </header>

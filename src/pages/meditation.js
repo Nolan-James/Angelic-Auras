@@ -11,7 +11,7 @@ const Meditation = () => {
             <header id="page-header">
                 <div className="container has-text-centered">
                     <div className=" m-auto text-center">
-                        <h1 className='title is-1'>Meditation</h1>
+                        <h1 className='title is-1 mt-6'>Meditation</h1>
                     </div>
                 </div>
             </header>
