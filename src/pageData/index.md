@@ -20,14 +20,14 @@ WelcomeText: >-
 
 
   My one to one meditation sessions teach you how to spend quality time with YOU. I teach you how to meditate, ground and protect your energy and used as a daily practice will enhance your life on so many levels. In particular if you are an empath, sensitive to others energies or a light worker learning how to protect your energy is an absolute must. I will teach you enhanced skills to keep yourself balanced and clear so you can live your everyday life without feeling drained and exhausted by the effects of others dense energy.
-service1Image: /img/1.jpg
+service1Image: /img/healing.jpeg
 service2Title: Meditation
 service2Description: "Beneficial to the whole of you: Mentally, emotionally,
   physically and spiritually."
-service2Image: /img/2.jpg
-service3Title: Spiritual Guidance Healing
-service3Description: Positive guidance and advice to help direct you on your journey in life.
-service3Image: /img/3.jpg
+service2Image: /img/1.jpg
+service3Title: Crystal Therapy
+service3Description: Be still and enjoy some quiet time from the outside world.
+service3Image: /img/crystal.png
 welcomeTitle: Welcome to Angelic Auras
 ---
 I have been qualified as an **Advanced level Energy Field Healer** for over a decade now working with the subtle energies of people, the planet and animals.
