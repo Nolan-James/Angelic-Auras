@@ -45,8 +45,8 @@ const Navbar = () => {
                             Angels for Animals
                         </Link>
 
-                        <Link to='/moon' className="navbar-item">
-                            Moon Magic
+                        <Link to='/crystal' className="navbar-item">
+                            Crystal Chakra & Violet fire Cleansing
                         </Link>
 
                         <Link to='/light' className="navbar-item">

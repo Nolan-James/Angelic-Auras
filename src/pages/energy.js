@@ -76,6 +76,11 @@ const EnergyPage = () => {
                                     </div>
 
                                 </div>
+                                <p className='mb-4'>We will work through areas that arise during the session, my aim
+                                    will be to
+                                    transform, clear
+                                    and
+                                    re-balance your energy whilst offering intuitive guidance.</p>
                             </div>
                         </div>
                     </div>
