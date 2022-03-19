@@ -55,6 +55,9 @@ const Light = () => {
                     <p className='mb-4'>
                         Our monthly meeting will held in a sacred space embraced in higher divine light.
                     </p>
+                    <p className='mb-4'>
+                        £15 per month
+                    </p>
                 </div>
             </section>
 

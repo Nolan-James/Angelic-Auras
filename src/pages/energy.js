@@ -81,6 +81,9 @@ const EnergyPage = () => {
                                     transform, clear
                                     and
                                     re-balance your energy whilst offering intuitive guidance.</p>
+                                <p className='mb-4'>
+                                    £65 per session
+                                </p>
                             </div>
                         </div>
                     </div>

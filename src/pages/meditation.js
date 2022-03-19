@@ -111,7 +111,7 @@ const Meditation = () => {
                                 <li>Protect your energy</li>
                             </ul>
                             <p>For more information or to book an appointment email: <a
-                                href="mailto:jen@angelic.com" className='button is-link'>jen@angelic.com</a>
+                                href="mailto:jen@angelic.com" className='button is-link'>angelicauras@mail.co.uk</a>
                             </p>
                             <p className="warning-text">Note: please seek advice from your doctor before coming off any
                                 medication and
@@ -122,6 +122,9 @@ const Meditation = () => {
                                 monitored with respect
                                 to that and in the hope that you will eventually be able to reduce or even stop your
                                 medication.</p>
+                            <p className='mb-4'>
+                                £15 per session
+                            </p>
                         </div>
                     </div>
                 </div>

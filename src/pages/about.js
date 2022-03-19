@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
 import Layout from "../components/Layout";
+import { StaticImage } from "gatsby-plugin-image";
 
 const About = () => {
     return (
@@ -17,8 +18,12 @@ const About = () => {
             </header>
 
             <section id="about-section" className="py-3">
-                <div className='container m-4'>
+                <div className='container m-4 mx-auto'>
                     <div>
+                        <div className='has-text-centered'>
+                            <StaticImage className='is-centered mb-4' src='../images/room.jpeg' alt='crystals'
+                                         width={400} height={600} placeholder="blurred" layout='constrained'/>
+                        </div>
                         <p className='mb-4'>
                             Coming from an ancestral line of healers and psychics on my Irish Celtic side, as a young
                             child
@@ -29,13 +34,21 @@ const About = () => {
                             quickly soon after a near death experience to learn to listen and trust the guidance I was
                             receiving.
                         </p>
-                        <p className='mb-4'>
-                            My journey as a healer began many years ago when an Angel saved my life from certain death,
-                            this
-                            then lead me on a quest to find out as much information as I could about Angels and Spirit.
-                            Inevitably this then lead me to the caring healing side and I qualified as a Reiki
-                            practitioner.
-                        </p>
+                        <div className='columns m-6'>
+                            <StaticImage className='is-centered mb-4 is-three-quarters' src='../images/jen.jpg'
+                                         alt='crystals'
+                                         width={100} height={150} placeholder="blurred" layout='constrained'/>
+                            <p className='mb-4 column '>
+                                My journey as a healer began many years ago when an Angel saved my life from certain
+                                death,
+                                this
+                                then lead me on a quest to find out as much information as I could about Angels and
+                                Spirit.
+                                Inevitably this then lead me to the caring healing side and I qualified as a Reiki
+                                practitioner.
+                            </p>
+
+                        </div>
                         <p className='mb-4'>
                             During Reiki sessions with clients I soon came to realize that I needed to learn more about
                             the
@@ -48,6 +61,10 @@ const About = () => {
                         </p>
                         <p className='mb-4'>
                             I have been qualified as an Advanced Level Energy Field Healer (dip.EFH) for over 15 years..
+                        </p>
+                        <p className='mb-4'>
+                            Based in Birmingham, within easy reach just off Junction 7 of M6 & M5 near Great Barr,
+                            Walsall, Sutton Coldfield and surrounding areas.
                         </p>
                         <p className='mb-4'>
                             I also run a monthly Women’s Circle called “The Light Within” for more details, dates and
