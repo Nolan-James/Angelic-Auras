@@ -32,6 +32,8 @@ const Services = () => {
         }
       }
     `);
+
+
     const service1Title = data.markdownRemark.frontmatter.service1Title;
     const service1Description = data.markdownRemark.frontmatter.service1Description;
     const service1Image = data.markdownRemark.frontmatter.service1Image;
