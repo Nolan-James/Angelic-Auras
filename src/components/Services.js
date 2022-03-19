@@ -60,7 +60,7 @@ const Services = () => {
                     </Link>
                 </div>
                 <div className="column">
-                    <Link to='/guidance'>
+                    <Link to='/crystal'>
                         <Card title={service3Title} description={service3Description} img={service3Image}/>
 
                     </Link>
