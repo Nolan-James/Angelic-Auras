@@ -62,7 +62,6 @@ const Services = () => {
                 <div className="column">
                     <Link to='/crystal'>
                         <Card title={service3Title} description={service3Description} img={service3Image}/>
-
                     </Link>
                 </div>
             </div>

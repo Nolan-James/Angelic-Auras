@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from "gatsby";
 
 const Navbar = () => {
-    const [isActive, setIsActive] = React.useState(false);
+    const [isActive, setIsActive] = useState(false);
 
     return (
         <nav className='navbar pt-4' role='navigation' aria-label='main navigation'>
@@ -25,43 +25,43 @@ const Navbar = () => {
             <div id='navbarBasicExample' className={`navbar-menu ${isActive ? 'is-active' : ''} `}>
                 <div className='navbar-end'>
                     <div className='navbar-start is-justify-content-center container is-flex-wrap-wrap'>
-                        <Link to='/' className="navbar-item">
+                        <Link to='/' className="navbar-item nav-text">
                             Home
                         </Link>
 
-                        <Link to='/energy' className="navbar-item ">
+                        <Link to='/energy' className="navbar-item nav-text">
                             Energy Field Healing
                         </Link>
 
-                        <Link to='/meditation' className="navbar-item">
+                        <Link to='/meditation' className="navbar-item nav-text">
                             Meditation
                         </Link>
 
-                        <Link to='/guidance' className="navbar-item">
+                        <Link to='/guidance' className="navbar-item nav-text">
                             Spiritual Guidance Healing
                         </Link>
 
-                        <Link to='/animals' className="navbar-item">
+                        <Link to='/animals' className="navbar-item nav-text">
                             Angels for Animals
                         </Link>
 
-                        <Link to='/crystal' className="navbar-item">
+                        <Link to='/crystal' className="navbar-item nav-text">
                             Crystal Chakra & Violet fire Cleansing
                         </Link>
 
-                        <Link to='/light' className="navbar-item">
+                        <Link to='/light' className="navbar-item nav-text">
                             “The Light Within” – Women’s Circle
                         </Link>
 
-                        <Link to='/news' className="navbar-item">
+                        <Link to='/news' className="navbar-item nav-text">
                             News
                         </Link>
 
-                        <Link to='/blog' className="navbar-item">
+                        <Link to='/blog' className="navbar-item nav-text">
                             Blog
                         </Link>
 
-                        <Link to='/about' className="navbar-item">
+                        <Link to='/about' className="navbar-item nav-text">
                             About Us
                         </Link>
                     </div>
