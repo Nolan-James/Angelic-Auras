@@ -7,12 +7,12 @@ const GuidancePage = () => {
     return (
         <Layout>
             <Helmet>
-                <title>Angelic Auras - Spiritual Health and Well-being</title>
+                <title>Angelic Auras - Spiritual Health and Well-being - Course</title>
             </Helmet>
             <header id="page-header">
                 <div className="container has-text-centered">
                     <div className=" m-auto text-center">
-                        <h1 className='title is-1 mt-6'>Spiritual Health and Well-being</h1>
+                        <h1 className='title is-1 mt-6'>Spiritual Health and Well-being - Course</h1>
                     </div>
                 </div>
             </header>

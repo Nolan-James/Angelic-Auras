@@ -33,7 +33,7 @@ const EnergyPage = () => {
                             <p>The aim of the therapy is to remove unwanted negative energy, imbalances and blockages by
                                 cleansing and re-aligning the Chakra system and Aura layers around the body.</p>
 
-                            <h2 className='subtitle is-2'>The Human Aura</h2>
+                            <h2 className='subtitle is-2 mt-4'>The Human Aura</h2>
                             <p>Our Aura radiates all around us (3-4 feet) It is in constant flow and will absorb
                                 energies from everyone we have a connection with including the places we work and live
                                 in. This may answer many of your questions on why you feel so drained or different after

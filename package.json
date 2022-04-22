@@ -16,6 +16,7 @@
   },
   "license": "0BSD",
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "bulma": "^0.9.3",
     "gatsby": "^4.4.0",
     "gatsby-background-image": "^1.5.3",
@@ -36,6 +37,7 @@
     "react-helmet": "^6.1.0",
     "react-responsive-carousel": "^3.2.22",
     "react-slick": "^0.28.1",
+    "reactstrap": "^8.9.0",
     "sass": "^1.43.2"
   }
 }

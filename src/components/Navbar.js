@@ -38,11 +38,7 @@ const Navbar = () => {
                         </Link>
 
                         <Link to='/guidance' className="navbar-item nav-text">
-                            Spiritual Guidance Healing
-                        </Link>
-
-                        <Link to='/animals' className="navbar-item nav-text">
-                            Angels for Animals
+                            Courses
                         </Link>
 
                         <Link to='/crystal' className="navbar-item nav-text">
@@ -51,6 +47,10 @@ const Navbar = () => {
 
                         <Link to='/light' className="navbar-item nav-text">
                             “The Light Within” – Women’s Circle
+                        </Link>
+
+                        <Link to='/animals' className="navbar-item nav-text">
+                            Angels for Animals
                         </Link>
 
                         <Link to='/news' className="navbar-item nav-text">
