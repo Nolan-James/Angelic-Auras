@@ -1,9 +1,7 @@
 ---
 contentKey: newsPage
-title: Wrath - Worldwide Rally Against Trophy Hunting
+title: " Worldwide Rally Against Trophy Hunting - March For Wildlife"
 ---
+![](/img/trophy-hunting-is-a-crime-against-nature-image.jpg)
 
-
-![](/img/wrath.jpg)
-
-Wednesday 19th - London - <https://fb.me/e/3J0sg1VM4>
+Saturday 2nd July 2022 Birmingham - [](https://fb.me/e/3J0sg1VM4)<https://fb.me/e/2eFd6mNwH>
