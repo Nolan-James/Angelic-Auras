@@ -1,6 +1,6 @@
 ---
 contentKey: blog
-title: Loving God - Just You & Him
+title: Loving God (Heavenly Father) - Just You & Him
 date: 2022-04-23T11:00:32.879Z
 postImage: /img/feather.jpg
 ---
