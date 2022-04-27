@@ -10,17 +10,17 @@ postImage: /img/feather.jpg
 
 ![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)This is a question I ask myself a lot and I now know some of the reasoning behind it which I would like to share with you.
 
-![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)Firstly God has nothing to do with any religion, any church, or any establishment that is all man made.
+![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)Firstly God (Heavenly Father) has nothing to do with any religion, any church, or any establishment that is all man made.
 
-![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)God has been used in many religions to start wars, create wars and enable division between different races around the world for the usual ego related issues of money and power which has caused hate towards his name and still happens to this day.
+![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)He has been used in many religions to start wars, create wars and enable division between different races around the world for the usual ego related issues of money and power which has caused hate towards his name and still happens to this day.
 
-![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)People have heart wounds because of the hate they feel towards his name, not because God has caused it but the people who use his name to create this hate.
+![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)People have heart wounds because of the hate they feel towards his name, not because God (Heavenly Father) has caused it but the people who use his name to create this hate.
 
-![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)God get's the blame for poverty, starvation, climate crisis, paedophilia, hate crimes etc you get the picture.
+![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)He get's the blame for poverty, starvation, climate crisis, paedophilia, hate crimes etc you get the picture.
 
 ![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)I've heard people say "why didn't God stop this from happening" Why does God let the children starve" Why doesn.t God step in and stop the evil plaguing the world" "I don't believe in God he does nothing for me"
 
-![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)The truth is the heads of the church & the governments are responsible for causing & trying to cause a mass disconnection and separation from God. You can see this in everyday life, the elite and evil corrupters are ruling the earth our beautiful home, the balance has been tipped and the light needs you to understand and free yourself and your mind.
+![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)The truth is the heads of the church & the governments are responsible for causing & trying to cause a mass disconnection and separation from God (Heavenly Father) You can see this in everyday life, the elite and evil corrupters are ruling the earth our beautiful home, the balance has been tipped and the light needs you to understand and free yourself and your mind.
 
 ![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)They are currently in the process of causing a mass separation from who we truly are NOW. The lock down is causing mass suffering, it is separating the family unit, they are telling you not to hug your children or family members, it's causing suicides, it's mentally crippling people, children are not gaining the wisdoms offered by their Grandparents, men are women and women are men, some elderly have not left their homes since the beginning in March 2020, I know this for a fact as I work for the NHS. The lock down is NOT working it's doing the complete opposite surely you must realise this by now?
 
@@ -30,7 +30,7 @@ postImage: /img/feather.jpg
 
 ![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)Everything is energy & all life is connected!
 
-![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)If you really want to know who God is then look inside yourself for the answers, you do not need a man in cloth or a building made of stone to seek him out.
+![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)If you really want to know who God (Heavenly Father) is then look inside yourself for the answers, you do not need a man in cloth or a building made of stone to seek him out.
 
 ![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)Jesus's words from the Gospel of St Thomas
 
@@ -44,7 +44,7 @@ postImage: /img/feather.jpg
 
 ![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)You may laugh and mock and say whatever to my statements above, but I can guarantee you that if you want to feel whole in this life then you must go within and seek him out (the light) You are loved beyond any love you can feel in this world. I tell you the truth because I have experienced this love, this light, this support I have been held it it's embrace, my heart has been filled with joy, love and a sense of knowing that whatever happens all will be well.
 
-![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)I have come to realise that there is no need to attend a church or spiritual retreat, I find spending time alone in meditation is all I need to find and feel the peace that God offers to us all.  No middle man needed blocking the connection.
+![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)I have come to realise that there is no need to attend a church or spiritual retreat although I understand that people enjoy the community spirit and love attending mass.  For me personally spending time alone in meditation is all I need to find and feel the peace that our Heavenly Father offers to us all.  No middle man needed blocking the connection.  
 
 ![🦋](https://static.xx.fbcdn.net/images/emoji.php/v9/tbb/1/16/1f98b.png)I believe we have been tricked, controlled and brainwashed for hundreds of years. It's time to find out how powerful you are and tap into the truth, the potential and light and be who you are supposed to be on this Earth and not who you are told to be by the corrupt heads of churches and governments who do not care about you, your wellbeing or health.
 
@@ -69,6 +69,8 @@ postImage: /img/feather.jpg
 Love and light
 
 *Jen ~ Angelic Auras*
+
+*NOTE:  I use Heavenly Father for it is this God I refer to*
 
 .
 
